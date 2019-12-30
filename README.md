@@ -4,5 +4,5 @@
 StygianCore custom SQL's for latest azerothcore database
 
 ## Credits
--  [Stygiancore: Creator]http://stygianthebest.github.io 
--  [Milestorme: Updated]https://github.com/milestorme/
+*  [Stygiancore](http://stygianthebest.github.io) Creator.
+*  [Micrah/Milestorme](https://github.com/milestorme) Updated.
