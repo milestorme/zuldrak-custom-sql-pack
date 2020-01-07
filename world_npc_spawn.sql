@@ -86,6 +86,7 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`
 -- --------------------------------------------------------------------------------------
 -- Holiday (WinterSpring)
 -- --------------------------------------------------------------------------------------
+DELETE FROM `creature` WHERE `guid`=601008;
 INSERT INTO `dev_world`.`creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES ('601008', '601008', '1', '1', '1', '0', '0', '6857.82', '-4676.65', '701.147', '1.5397', '300', '0', '0', '5342', '0', '0', '0', '0', '0');
 
 -- --------------------------------------------------------------------------------------
@@ -257,7 +258,7 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`
 -- --------------------------------------------------------------------------------------
 -- Banker (Silithus Camp)
 -- --------------------------------------------------------------------------------------
-DELETE FROM `creature` WHERE `guid`=601034;
+DELETE FROM `creature` WHERE `guid`=2024319;
 INSERT INTO `dev_world`.`creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES ('2024319', '601034', '1', '1', '1', '0', '1', '-10716', '2468.83', '7.6044', '3.81682', '300', '0', '0', '5342', '0', '0', '0', '0', '0');
 
 -- --------------------------------------------------------------------------------------
@@ -316,11 +317,13 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`
 -- --------------------------------------------------------------------------------------
 -- Portal Master (GM Island)
 -- --------------------------------------------------------------------------------------
+DELETE FROM `creature` WHERE `guid`=2024682;
 INSERT INTO `dev_world`.`creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES ('2024682', '601019', '1', '1', '1', '0', '0', '16199.7', '16205.8', '0.139467', '1.22447', '300', '0', '0', '4163', '0', '0', '0', '0', '0');
 
 -- --------------------------------------------------------------------------------------
 -- Global Trainer (GM Island)
 -- --------------------------------------------------------------------------------------
+DELETE FROM `creature` WHERE `guid`=2024526;
 INSERT INTO `dev_world`.`creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`) VALUES ('2024526', '60165', '1', '1', '1', '0', '0', '16254.7', '16304.6', '20.8447', '3.03001', '300', '0', '0', '4274', '3994', '0', '0', '134217728', '0');
 
 
